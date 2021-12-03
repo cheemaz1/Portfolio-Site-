@@ -1101,13 +1101,17 @@ header .top-bar {
 	position: absolute;
 	left: 90px;
 	top: 0;
+	border-radius: 10px;
 }
 header .logo {
 	float: left;
 	margin-left: 20px;
 	margin-right: 50px;
-	margin-top: 25px;
+	margin-top: 19px;
 	position: relative;
+	font-family: 'poppins-semibold';
+	font-size: 25px;
+	color: white;
 }
 header .logo a {
 	display: block;
@@ -1119,7 +1123,8 @@ header .logo a {
 	color: transparent;
 	width: 92px;
 	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
+
+	/* background: url("../images/logo.png") no-repeat center; */
 	background-size: 92px 15px;
 }
 
@@ -1504,15 +1509,17 @@ header .logo a {
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 9rem;
-	width: 9rem;
-	border-radius: 50%;
+	height: 20rem;
+	width: 20rem;
+	border-radius: 30%;
 	margin: .9rem 0 0 0;
 	float: left;
+	margin-left: -3rem;
+	border: 2px solid black;
 }
 .intro-info .lead {
 	text-align: left;
-	padding-left: 13rem;
+	padding-left: 21rem;
 }
 
 .about-content {
